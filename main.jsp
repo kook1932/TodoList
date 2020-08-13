@@ -17,7 +17,7 @@
 	
 <header>
   <button class="new" 
-  onclick="location.href='http://localhost:8080/TodoList/TodoFromServlet'">
+  onclick="location.href='http://localhost:8080/TodoList/TodoFormServlet'">
   할일 등록</button>
 </header>
 
