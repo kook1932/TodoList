@@ -11,8 +11,8 @@ public class TodoDao {
 	// 또한 자주 사용되므로 String으로 생성하고 사용한다.
 	
 	private static String dburl = "jdbc:mysql://localhost:3306/connectdb?serverTimezone=Asia/Seoul&useSSL=false";
-	private static String dbuser = "connectuser";
-	private static String dbpw = "connect123!@#";
+	private static String dbuser = "DB user 이름을 입력하세요";
+	private static String dbpw = "DB password를 입력하세요";
 	
 	public int addTodo(TodoDto td) {
 		int cnt = 0;
